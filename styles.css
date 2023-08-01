@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.social-media-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media-links a {
+    display: inline-block;
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.social-media-links img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+img {
+    display: block; 
+    margin: 0;
+    padding: 0;
+}
+.product img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover; 
+    object-position: center; 
+}
+
+
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+
+user-links {
+    top: 55px;
+    right: 15px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #eee;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.products {
+    padding: 40px 20px;
+}
+.features{
+    display: flex;
+
+}
+.product {
+    text-align: center;
+    margin: 20px;
+}
+
+.product img {
+    max-width: 100%;
+}
+.user-links {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+
+.user-links a {
+    display: inline-block;
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 20px;
+    }
+
+.buy-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+}
